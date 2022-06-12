@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
 body {
     min-height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background: linear-gradient(#2b1055, #7597de);
 }
 
@@ -54,8 +57,8 @@ header ul li a.active {
 section {
     position: relative;
     width: 100%;
-    height: 100vh;
-    padding: 100px;
+    height: 100vh;          /* push the section context out of the start-up screen */
+    /* padding: 100px; */   /* I think it's not necessary */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +98,7 @@ section img#mountains_front {
 }
 #btn {
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */    /* I think it's not necessary */
     padding: 8px 30px;
     border-radius: 40px;
     background: #fff;
@@ -117,6 +120,6 @@ section img#mountains_front {
     color: #fff;
 }
 .sec p {
-    font-size: 1em;
+    /* font-size: 1em; */       /* I think it's not necessary */
     color: #fff;
 }

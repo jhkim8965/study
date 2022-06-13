@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    margin-left: 10px;
+}
+input {
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
+
+#result {
+    font-weight: bold;
+}

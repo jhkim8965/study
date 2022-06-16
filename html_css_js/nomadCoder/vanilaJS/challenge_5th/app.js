@@ -90,4 +90,4 @@ function handleIntervalEvent() {
     onMessageEffect($span);
 }
 
-setInterval(handleIntervalEvent, 300);
+setInterval(handleIntervalEvent, 500);

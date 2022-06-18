@@ -1,0 +1,40 @@
+.shootingstar {
+    position: absolute;
+    top: 20vh;
+    right: 10vh;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFFFDE;
+    box-shadow: 0 0 5px #F4E06D;
+    box-shadow: 0 0 10px #F4E06D;
+    box-shadow: 0 0 20px #F4E06D;
+    z-index: 2;
+    filter: blur(1.2px);
+    animation: shootingstar 5s linear infinite;
+}
+.shootingstar::after {
+    content: '';
+    width: 0.9px;
+    position: absolute;
+    left: 7.4vh;
+    top: -11vh;
+    border-bottom: 150px solid #FFFFDE;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    transform: rotate(65deg);
+    filter: blur(3px);
+}
+@keyframes shootingstar {
+    0% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-200vh) translateY(100vh);
+    }
+}

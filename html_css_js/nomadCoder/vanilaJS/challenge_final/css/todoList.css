@@ -55,6 +55,9 @@
     list-style: none;
     color: #fff;
     font-size: 1.2em;
+    overflow-y: auto;
+    padding-right: 1.5vh;
+    height: 50vh;
 }
 #todo-list li {
     margin-top: 1vh;

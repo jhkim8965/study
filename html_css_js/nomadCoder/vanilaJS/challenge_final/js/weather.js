@@ -9,7 +9,7 @@ function onGeoOk(position) {
         .then((response) => response.json())
         .then((data) => {
             const $weather = document.querySelector('#weather span');
-            $weather.innerText = `${data.weather[0].main} / ${data.main.temp} / ${data.name}`;
+            $weather.innerText = `${data.weather[0].main} / ${Math.round(data.main.temp)}°C / ${data.name}`;
         });
 }
 

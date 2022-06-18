@@ -27,7 +27,16 @@
     }
 }
 #greeting.showToDo {
-    transition: 1s;
+    /* transition: 1s; */
     border-bottom: 3px solid #000;
     text-align: left;
+    animation: greetings2 1.5s linear;
+}
+@keyframes greetings2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

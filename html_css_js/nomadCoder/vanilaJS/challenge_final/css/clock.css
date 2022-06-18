@@ -1,0 +1,8 @@
+#clock {
+    position: absolute;
+    bottom: 8vh;
+    right: 20vh;
+    z-index: 1001;
+    font-size: 3em;
+    border-bottom: 3px solid #000;
+}

@@ -2,7 +2,6 @@ const $login = document.querySelector('.login');
 const $loginForm = $login.querySelector('#login-form');
 const $username = $loginForm.querySelector('#username');
 const $greeting = document.getElementById('greeting');
-const $todoList = document.getElementById('todo-list');
 
 const HIDDEN_CLASSNAME = 'hidden';
 const USERNAME_KEY = 'username';
@@ -32,7 +31,10 @@ function printGreetings(userName) {
     toggleGreetings();
     
     setTimeout(() => {
-        $login.classList.add('showToDoList');
-        $todoList.classList.add('showToDoList');
+        const $todo = document.getElementById('todo');
+        
+        $login.classList.add('showToDo');
+        $greeting.classList.add('showToDo');
+        $todo.classList.add('showToDo');
     }, PAINT_TEXT_TIME);
 }

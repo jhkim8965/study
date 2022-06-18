@@ -1,0 +1,8 @@
+#weather {
+    position: absolute;
+    bottom: 3vh;
+    right: 20vh;
+    z-index: 1001;
+    font-size: 1.5em;
+    border-bottom: 3px solid #000;
+}

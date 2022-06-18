@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
 }
-.login.showToDoList {
+.login.showToDo {
     transition: 1s;
     top: 15vh;
     padding: 20px;
@@ -16,7 +16,7 @@
 #greeting {
     font-size: 3vw;
     animation: greetings 2.5s linear;
-    border-bottom: 3px solid #000;
+    text-align: center;
 }
 @keyframes greetings {
     0%, 10%{
@@ -25,4 +25,9 @@
     90%, 100%{
         opacity: 1;
     }
+}
+#greeting.showToDo {
+    transition: 1s;
+    border-bottom: 3px solid #000;
+    text-align: left;
 }

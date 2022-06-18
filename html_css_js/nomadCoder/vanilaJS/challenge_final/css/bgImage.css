@@ -14,7 +14,7 @@
     border-radius: 50%;
     background: #FEF9A7;
     position: absolute;
-    left: 31.2vh;
+    left: 23.2vh;
     top: 13vh;
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
@@ -25,12 +25,12 @@
     width: 20vh;
     height: 4vh;
     border-radius: 5vh;
-    background: #4B5D67;
+    background: #343a3e;
     position: absolute;
-    left: 30vh;
+    left: 22vh;
     top: 21vh;
-    box-shadow: 0 0 10px #4B5D67,
-                0 0 20px #4B5D67,
+    box-shadow: 0 0 10px #343a3e,
+                0 0 20px #343a3e,
                 0 0 40px #FAC213;
     z-index: 1001;
 }
@@ -39,24 +39,24 @@
     width: 6.8vh;
     height: 6.8vh;
     border-radius: 50%;
-    background: #4B5D67;
+    background: #343a3e;
     position: absolute;
     left: 3.7vh;
     top: -4vh;
-    box-shadow: 0 0 10px #4B5D67,
-                0 0 20px #4B5D67;
+    box-shadow: 0 0 10px #343a3e,
+                0 0 20px #343a3e;
 }
 .night-city .cloud::after {
     content: '';
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
-    background: #4B5D67;
+    background: #343a3e;
     position: absolute;
     left: 10vh;
     top: -3vh;
-    box-shadow: 0 0 10px #4B5D67,
-                0 0 20px #4B5D67;
+    box-shadow: 0 0 10px #343a3e,
+                0 0 20px #343a3e;
 }
 
 .night-city .img {
@@ -101,7 +101,7 @@
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
-    animation: turnLight2 10s linear infinite;
+    animation: turnLight1 10s linear infinite;
     animation-delay: 0.03s;
 }
 .night-city .img .windows i:nth-child(4) {
@@ -127,6 +127,138 @@
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
     animation: turnLight4 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(6) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 26.8vh;
+    top: 75.8vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight4 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(7) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 41vh;
+    top: 74.6vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight2 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(8) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 41vh;
+    top: 76.6vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight1 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(9) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 50vh;
+    top: 76.6vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight1 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(10) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 65.5vh;
+    top: 75vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight2 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(11) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 100.5vh;
+    top: 78vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight1 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(12) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 90.5vh;
+    top: 78vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight3 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(13) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 92.5vh;
+    top: 81vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight1 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(14) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 94.5vh;
+    top: 81vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight4 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(15) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 67.7vh;
+    top: 81vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight4 10s linear infinite;
+}
+.night-city .img .windows i:nth-child(16) {
+    width: 1.2vh;
+    height: 1.2vh;
+    background: #F4E06D;
+    position: absolute;
+    left: 67.7vh;
+    top: 79vh;
+    box-shadow: 0 0 10px #FAC213,
+                0 0 20px #FAC213,
+                0 0 40px #FAC213;
+    animation: turnLight1 10s linear infinite;
 }
 @keyframes turnLight1 {
     0%, 10.1%, 70%, 90.1%, 100% {

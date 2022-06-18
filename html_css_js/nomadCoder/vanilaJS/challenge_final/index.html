@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="css/bgImage.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/todoList.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link rel="stylesheet" href="css/weather.css">
     <script defer src="js/star.js"></script>
-    <script defer src="js/greatings.js"></script>
+    <script defer src="js/login.js"></script>
+    <script defer src="js/todo.js"></script>
+    <script defer src="js/clock.js"></script>
+    <script defer src="js/weather.js"></script>
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <div class="background">
@@ -19,6 +26,17 @@
             <div class="cloud"></div>
             <div class="img">
                 <div class="windows">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
                     <i></i>
                     <i></i>
                     <i></i>
@@ -35,9 +53,17 @@
             <input type="submit" value="Log In">
         </form>
         <span id="greeting" class="hidden"></span>
-        <div id="todo-list">
-            
+        <div id="todo">
+            <form id="todo-form">
+                <input type="search" id="todo-input" required autocomplete="off">
+                <span>Write your To-Do List</span>
+            </form>
+            <ul id="todo-list"></ul>
         </div>
+    </div>
+    <span id="clock"></span>
+    <div id="weather">
+        <span></span>
     </div>
 </body>
 </html>

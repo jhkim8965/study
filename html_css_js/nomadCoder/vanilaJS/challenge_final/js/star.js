@@ -8,8 +8,8 @@ const starAnimateDuration = 10;
 let createdStarCount = 0;
 while(createdStarCount < toMakeStarCnt) {
     const $star = document.createElement('i');
-    const x = Math.floor(Math.random() * $img.offsetWidth) + 100;
-    const y = Math.floor(Math.random() * $img.offsetHeight);
+    const x = Math.floor(Math.random() * $img.offsetWidth) + $img.offsetLeft;
+    const y = Math.floor(Math.random() * $img.offsetHeight) - 10;
     const size = Math.random() * maxStarSize;
 
     $star.style.left = x + 'px';
@@ -19,7 +19,6 @@ while(createdStarCount < toMakeStarCnt) {
 
     $star.style.animationDelay = Math.random() * maxStarAnimateDelay + 's';
     $star.style.animationDuration = starAnimateDuration + 's';
-    console.dir($star);
 
     $stars.appendChild($star);
 

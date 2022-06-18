@@ -1,0 +1,14 @@
+#todo-list {
+    border: 3px solid #000;
+    width: 50vh;
+    height: 60vh;
+    border-radius: 15px;
+    margin-top: 2vh;
+    /* z-index: 1001; */
+    background: rgb(0, 0, 0, .5);
+    display: none;
+    transition: 1s;
+}
+#todo-list.showToDoList {
+    display: block;
+}

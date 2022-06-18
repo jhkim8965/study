@@ -1,35 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    height: 100vh;
-    overflow: hidden;
-}
-
-.hidden {
-    display: none;
-}
-
 .night-city {
     position: relative;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, #232526, #414345);
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: none;
 }
+
 .night-city .moon {
     width: 13vh;
     height: 13vh;
     border-radius: 50%;
     background: #FEF9A7;
     position: absolute;
+    left: 31.2vh;
     top: 13vh;
-    left: 33.2vh;
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
@@ -41,8 +27,8 @@ body {
     border-radius: 5vh;
     background: #4B5D67;
     position: absolute;
-    top: 21vh;
     left: 30vh;
+    top: 21vh;
     box-shadow: 0 0 10px #4B5D67,
                 0 0 20px #4B5D67,
                 0 0 40px #FAC213;
@@ -55,8 +41,8 @@ body {
     border-radius: 50%;
     background: #4B5D67;
     position: absolute;
-    top: -4vh;
     left: 3.7vh;
+    top: -4vh;
     box-shadow: 0 0 10px #4B5D67,
                 0 0 20px #4B5D67;
 }
@@ -67,11 +53,12 @@ body {
     border-radius: 50%;
     background: #4B5D67;
     position: absolute;
-    top: -3vh;
     left: 10vh;
+    top: -3vh;
     box-shadow: 0 0 10px #4B5D67,
                 0 0 20px #4B5D67;
 }
+
 .night-city .img {
     position: relative;
     width: 160vh;
@@ -85,8 +72,8 @@ body {
     height: 1.2vh;
     background: #F4E06D;
     position: absolute;
-    top: 74vh;
     left: 25vh;
+    top: 74vh;
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
@@ -97,8 +84,8 @@ body {
     height: 1.2vh;
     background: #F4E06D;
     position: absolute;
-    top: 73vh;
     left: 54vh;
+    top: 73vh;
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
@@ -109,8 +96,8 @@ body {
     height: 1.2vh;
     background: #F4E06D;
     position: absolute;
-    top: 73vh;
     left: 52.2vh;
+    top: 73vh;
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
@@ -122,8 +109,8 @@ body {
     height: 1.2vh;
     background: #F4E06D;
     position: absolute;
-    top: 76vh;
     left: 104vh;
+    top: 76vh;
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
@@ -134,8 +121,8 @@ body {
     height: 1.2vh;
     background: #F4E06D;
     position: absolute;
-    top: 76.3vh;
     left: 133.2vh;
+    top: 76.3vh;
     box-shadow: 0 0 10px #FAC213,
                 0 0 20px #FAC213,
                 0 0 40px #FAC213;
@@ -173,6 +160,7 @@ body {
         transform: scale(1);
     }
 }
+
 .night-city .stars i {
     position: absolute;
     background: #FCD900;

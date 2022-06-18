@@ -1,0 +1,28 @@
+.login {
+    z-index: 2000;
+    position: absolute;
+    top: 35vh;
+    display: flex;
+    flex-direction: column;
+}
+.login.showToDoList {
+    transition: 1s;
+    top: 15vh;
+    padding: 20px;
+    border: 3px solid #000;
+    border-radius: 15px;
+}
+
+#greeting {
+    font-size: 3vw;
+    animation: greetings 2.5s linear;
+    border-bottom: 3px solid #000;
+}
+@keyframes greetings {
+    0%, 10%{
+        opacity: 0;
+    }
+    90%, 100%{
+        opacity: 1;
+    }
+}

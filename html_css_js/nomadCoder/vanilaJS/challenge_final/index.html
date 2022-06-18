@@ -5,23 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList-Final</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/bgImage.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/todoList.css">
     <script defer src="js/star.js"></script>
+    <script defer src="js/greatings.js"></script>
 </head>
 <body>
-    <section class="night-city">
-        <div class="moon"></div>
-        <div class="cloud"></div>
-        <div class="img">
-            <div class="windows">
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
+    <div class="background">
+        <section class="night-city">
+            <div class="moon"></div>
+            <div class="cloud"></div>
+            <div class="img">
+                <div class="windows">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
             </div>
+            <div class="stars"></div>
+        </section>
+    </div>
+    <div class="login">
+        <form id="login-form">
+            <input type="text" id="username" required placeholder="Please, Write your name">
+            <input type="submit" value="Log In">
+        </form>
+        <span id="greeting" class="hidden"></span>
+        <div id="todo-list">
+            
         </div>
-        <div class="stars"></div>
-    </section>
+    </div>
 </body>
 </html>

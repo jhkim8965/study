@@ -40,3 +40,10 @@
         opacity: 1;
     }
 }
+
+#login-form {
+    position: absolute;
+    left: 10vh;
+    top: 0vh;
+    width: 250px;
+}
